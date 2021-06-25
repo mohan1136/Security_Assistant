@@ -1,0 +1,70 @@
+*
+{
+	margin:0;
+	box-sizing:border-box;
+	z-index:-3;
+}
+body
+{
+	background-color:#52ACFF;
+	overflow: auto;
+}
+.main
+{
+	font-size:20px;
+	position:fixed;
+	width:100%;
+	text-align:center;
+	color:white;
+	background-color:#353535;
+	padding:25px;
+}
+.main2
+{
+	font-size:18px;
+	border-bottom:5px solid white;
+	padding:10px;
+	width:320px;
+	position: relative;
+}
+.form1
+{
+	margin:0 auto;
+	background-color: rgba(0,0,0,0.7);
+	width:340px;
+	height:auto;
+	border-radius:0 20px 0 20px;
+	padding:42px;
+}
+input
+{
+	padding:5px;
+	text-align:center;
+	border:0;
+	padding:10px;
+	margin:10px 0;
+	border-radius:5px;
+}
+#note
+{
+	color:red;
+}
+.logout
+{
+
+	width:50px;
+	height:50px;
+}
+input[type="submit"]
+{
+	margin-left:92px;
+}
+select
+{
+	margin-left:45px;
+}
+input[type="submit"]:hover
+{
+	background-color: black;
+	color:white;
+}
